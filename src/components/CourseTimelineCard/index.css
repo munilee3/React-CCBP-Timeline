@@ -1,0 +1,51 @@
+.course-timeline-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.title-duration-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.course-title {
+  color: #171f46;
+  font-size: 18px;
+  font-family: 'roboto';
+}
+.icon-duration-container {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  font-size: 20px;
+}
+.duration {
+  margin-left: 8px;
+  font-family: 'roboto';
+  font-size: 14px;
+  color: #1e293b;
+}
+.description {
+  color: #1e293b;
+  font-family: 'roboto';
+}
+.tags-list {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.tag-item {
+  background-color: #e2e8f0;
+  color: #25262c;
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 10px;
+  border-radius: 5px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding: 5px;
+}
